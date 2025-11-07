@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerCompass - One-Stop Personalized Career & Education Advisor</title>
+    <link rel="stylesheet" href="landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FF6B35'%3E%3Cpath d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/%3E%3C/svg%3E" alt="CareerCompass" class="logo-icon">
+                <span class="logo-text">CareerCompass</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    One-Stop <span class="gradient-text">Personalized Career</span><br>
+                    & Education Advisor
+                </h1>
+                <p class="hero-description">
+                    Bridge the awareness gap in career decisions. Get AI-driven recommendations based on interests, 
+                    local opportunities, and family aspirations. Make informed academic choices with hyperlocal data.
+                </p>
+                
+                <!-- Statistics -->
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <div class="stat-number">68%</div>
+                        <div class="stat-label">Students' careers are parent-driven</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">45%</div>
+                        <div class="stat-label">Regret their career choices</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">70%</div>
+                        <div class="stat-label">Lack awareness of local opportunities</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="floating-cards">
+                    <div class="card card-1">
+                        <div class="card-icon">👨‍🎓</div>
+                        <div class="card-text">Student Assessment</div>
+                    </div>
+                    <div class="card card-2">
+                        <div class="card-icon">👨‍👩‍👧‍👦</div>
+                        <div class="card-text">Parent Guidance</div>
+                    </div>
+                    <div class="card card-3">
+                        <div class="card-icon">🏠</div>
+                        <div class="card-text">Family Decisions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Assessment Options -->
+    <section class="assessment-options">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Choose Your Assessment Path</h2>
+                <p class="section-subtitle">
+                    Different perspectives, unified decisions. Start your career discovery journey.
+                </p>
+            </div>
+
+            <div class="options-grid">
+                <!-- Student Assessment -->
+                <div class="option-card student-card">
+                    <div class="card-header">
+                        <div class="card-icon-large">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/>
+                            </svg>
+                        </div>
+                        <h3>Student Assessment</h3>
+                        <p>Discover your interests through situational questions and activities you enjoy</p>
+                    </div>
+                    
+                    <div class="card-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">✨</span>
+                            <span>Interest-based discovery</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🎯</span>
+                            <span>Situational scenarios</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🚀</span>
+                            <span>AI-powered recommendations</span>
+                        </div>
+                    </div>
+                    
+                    <button class="cta-button primary" onclick="startStudentAssessment()">
+                        Start My Assessment
+                        <span class="button-arrow">→</span>
+                    </button>
+                </div>
+
+                <!-- Parent Assessment -->
+                <div class="option-card parent-card">
+                    <div class="card-header">
+                        <div class="card-icon-large">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A2.01 2.01 0 0 0 18.04 7h-.87c-.8 0-1.54.5-1.85 1.26l-1.92 5.76A2 2 0 0 0 15.28 16H16v6h4zM12.5 11.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5S11 9.17 11 10s.67 1.5 1.5 1.5zm1.5 1h-4c-.83 0-1.5.67-1.5 1.5v6h2v7h3v-7h2v-6c0-.83-.67-1.5-1.5-1.5z"/>
+                            </svg>
+                        </div>
+                        <h3>Parent Guidance</h3>
+                        <p>Get hyperlocal career insights and data-driven recommendations for your child</p>
+                    </div>
+                    
+                    <div class="card-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">📊</span>
+                            <span>Local salary & job data</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🏘️</span>
+                            <span>Hyperlocal opportunities</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">💡</span>
+                            <span>Myth-busting insights</span>
+                        </div>
+                    </div>
+                    
+                    <button class="cta-button secondary" onclick="startParentAssessment()">
+                        Guide My Child
+                        <span class="button-arrow">→</span>
+                    </button>
+                </div>
+
+                <!-- Family Group -->
+                <div class="option-card family-card">
+                    <div class="card-header">
+                        <div class="card-icon-large">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A2.01 2.01 0 0 0 18.04 7h-.87c-.8 0-1.54.5-1.85 1.26l-1.92 5.76A2 2 0 0 0 15.28 16H16v6h4zM12.5 11.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5S11 9.17 11 10s.67 1.5 1.5 1.5zm1.5 1h-4c-.83 0-1.5.67-1.5 1.5v6h2v7h3v-7h2v-6c0-.83-.67-1.5-1.5-1.5zM5.5 6c1.11 0 2-.89 2-2s-.89-2-2-2-2 .89-2 2 .89 2 2 2zm1.5 1H3c-.83 0-1.5.67-1.5 1.5v6h2v7h3v-7h2v-6C8.5 7.67 7.83 7 7 7z"/>
+                            </svg>
+                        </div>
+                        <h3>Family Group</h3>
+                        <p>Collaborative decision-making with shared family code and consolidated insights</p>
+                    </div>
+                    
+                    <div class="card-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">🔗</span>
+                            <span>Shared family code</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">📋</span>
+                            <span>Consolidated reports</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🤝</span>
+                            <span>Collaborative decisions</span>
+                        </div>
+                    </div>
+                    
+                    <button class="cta-button tertiary" onclick="createFamilyGroup()">
+                        Create Family Group
+                        <span class="button-arrow">→</span>
+                    </button>
+                    
+                    <div class="family-join">
+                        <p>Have a family code?</p>
+                        <div class="join-input-group">
+                            <input type="text" placeholder="Enter family code" id="familyCode">
+                            <button onclick="joinFamilyGroup()">Join</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mental Wellness Hub -->
+    <section class="wellness-section">
+        <div class="container">
+            <div class="wellness-card-horizontal">
+                <div class="wellness-header">
+                    <div class="wellness-icon">🧘‍♀️</div>
+                    <div class="wellness-info">
+                        <h3>Mental Wellness Hub</h3>
+                        <p>Take a moment to relax and recharge during your career journey</p>
+                    </div>
+                </div>
+                
+                <div class="wellness-exercises-horizontal">
+                    <div class="exercise-tabs">
+                        <button class="tab-btn active" onclick="showExercise('breathing')">Breathing</button>
+                        <button class="tab-btn" onclick="showExercise('meditation')">Meditation</button>
+                        <button class="tab-btn" onclick="showExercise('affirmations')">Affirmations</button>
+                    </div>
+                    
+                    <!-- Breathing Exercise -->
+                    <div id="breathing-exercise" class="exercise-content active">
+                        <div class="breath-timer">
+                            <div class="breath-circle" id="breathCircle">
+                                <div class="breath-text" id="breathText">Breathe</div>
+                            </div>
+                            <div class="breath-controls">
+                                <div class="timer-controls">
+                                    <button class="control-btn" onclick="startBreathTimer()">Start</button>
+                                    <button class="control-btn" onclick="stopBreathTimer()">Stop</button>
+                                </div>
+                                <div class="breath-counter">
+                                    <span>Cycles: <span id="breathCount">0</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Meditation Exercise -->
+                    <div id="meditation-exercise" class="exercise-content">
+                        <div class="meditation-timer">
+                            <div class="meditation-left">
+                                <h4>Quick Meditation</h4>
+                                <p>Choose your duration:</p>
+                                <div class="duration-buttons">
+                                    <button class="duration-btn" onclick="startMeditation(2)">2 min</button>
+                                    <button class="duration-btn" onclick="startMeditation(5)">5 min</button>
+                                    <button class="duration-btn" onclick="startMeditation(10)">10 min</button>
+                                </div>
+                            </div>
+                            <div class="meditation-right">
+                                <div class="meditation-time" id="meditationTime">00:00</div>
+                                <div class="meditation-status" id="meditationStatus">Ready to begin</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Affirmations Exercise -->
+                    <div id="affirmations-exercise" class="exercise-content">
+                        <div class="affirmations-horizontal">
+                            <div class="affirmation-card" id="affirmationCard">
+                                <p id="affirmationText">I am capable of achieving my dreams and goals.</p>
+                            </div>
+                            <button class="control-btn" onclick="nextAffirmation()">Next Affirmation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="problem-section">
+        <div class="container">
+            <div class="problem-content">
+                <div class="problem-text">
+                    <h2>The Career Decision Crisis</h2>
+                    <p class="problem-description">
+                        Despite adequate infrastructure in government colleges, student enrollment declines due to 
+                        lack of awareness about career opportunities, course options, and the importance of graduation.
+                    </p>
+                    
+                    <div class="problem-points">
+                        <div class="problem-point">
+                            <div class="point-icon">❌</div>
+                            <div class="point-text">
+                                <h4>Awareness Gap</h4>
+                                <p>Students unaware of degree options and career opportunities</p>
+                            </div>
+                        </div>
+                        <div class="problem-point">
+                            <div class="point-icon">🤔</div>
+                            <div class="point-text">
+                                <h4>Stream Confusion</h4>
+                                <p>Difficulty choosing between Arts, Science, Commerce, Vocational</p>
+                            </div>
+                        </div>
+                        <div class="problem-point">
+                            <div class="point-icon">👨‍👩‍👧‍👦</div>
+                            <div class="point-text">
+                                <h4>Parent-Driven Decisions</h4>
+                                <p>68% of career choices influenced by parental pressure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="solution-preview">
+                    <h3>Our Solution</h3>
+                    <div class="solution-features">
+                        <div class="solution-item">
+                            <span class="solution-number">01</span>
+                            <span class="solution-title">Aptitude Assessment</span>
+                        </div>
+                        <div class="solution-item">
+                            <span class="solution-number">02</span>
+                            <span class="solution-title">Local Data Insights</span>
+                        </div>
+                        <div class="solution-item">
+                            <span class="solution-number">03</span>
+                            <span class="solution-title">Family Collaboration</span>
+                        </div>
+                        <div class="solution-item">
+                            <span class="solution-number">04</span>
+                            <span class="solution-title">Career Path Mapping</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Comprehensive Career Guidance</h2>
+                <p class="section-subtitle">
+                    Everything you need to make informed career decisions
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>AI-Driven Assessment</h3>
+                    <p>Interactive quizzes to assess interests, strengths, and personality traits with situational scenarios</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🗺️</div>
+                    <h3>Career Path Mapping</h3>
+                    <p>Visual roadmaps showing what each degree leads to, including government exams and private sector opportunities</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🏫</div>
+                    <h3>Local College Directory</h3>
+                    <p>Location-based listing of nearby government colleges with cut-off marks, facilities, and admission processes</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Hyperlocal Data</h3>
+                    <p>Real salary statistics, job demand, and career growth data specific to your city and region</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h3>Timeline Tracker</h3>
+                    <p>Real-time reminders for admission dates, scholarship deadlines, and entrance test notifications</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3>Family Collaboration</h3>
+                    <p>Shared family groups for collaborative decision-making with consolidated reports and insights</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FF6B35'%3E%3Cpath d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/%3E%3C/svg%3E" alt="CareerCompass">
+                        <span>CareerCompass</span>
+                    </div>
+                    <p>Empowering students and families to make informed career decisions with AI-driven insights and hyperlocal data.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Assessment Types</h4>
+                    <ul>
+                        <li><a href="#" onclick="startStudentAssessment()">Student Assessment</a></li>
+                        <li><a href="#" onclick="startParentAssessment()">Parent Guidance</a></li>
+                        <li><a href="#" onclick="createFamilyGroup()">Family Group</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Smart India Hackathon 2025</p>
+                    <p>Team: Career Discovery Solutions</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 CareerCompass. Built for Smart India Hackathon 2025.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="landing.js"></script>
+</body>
+</html>

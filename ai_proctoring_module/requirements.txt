@@ -1,0 +1,9 @@
+opencv-python==4.8.1.78
+# dlib==19.24.2
+numpy==1.24.3
+imutils==0.5.4
+# pyaudio==0.2.11
+scipy==1.11.1
+matplotlib==3.7.2
+Pillow==10.0.0
+cmake==3.27.2
