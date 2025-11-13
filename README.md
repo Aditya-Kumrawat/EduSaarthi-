@@ -319,6 +319,19 @@ pie title Educational Challenges
 
 </div>
 
+### 🎓 Student Dashboard
+<div align="center">
+<img src="./public/images/student-dashboard.png" alt="Student Dashboard Interface" width="800"/>
+</div>
+
+**Features Shown:**
+- 📖 **Learning Modules** - Scan PDFs, interactive quizzes, and storybook features
+- 🤖 **AI Chatbot** - Personalized learning assistance and instant answers
+- 👥 **Classroom Integration** - Easy class joining and collaborative learning
+- 🎯 **Progress Tracking** - Visual learning journey and achievement system
+
+---
+
 ### 🎯 AI Test Arena
 <div align="center">
 <img src="./public/images/ai-test-arena.png" alt="AI Test Arena Interface" width="800"/>
@@ -356,19 +369,6 @@ pie title Educational Challenges
 - 🗣️ **Multi-language Support** - Voice models in multiple languages
 - 🎨 **Custom Configuration** - Detailed video generation settings and preview
 - ⚡ **Fast Generation** - Quick processing with AI-powered optimization
-
----
-
-### 🎓 Student Dashboard
-<div align="center">
-<img src="./public/images/student-dashboard.png" alt="Student Dashboard Interface" width="800"/>
-</div>
-
-**Features Shown:**
-- 📖 **Learning Modules** - Scan PDFs, interactive quizzes, and storybook features
-- 🤖 **AI Chatbot** - Personalized learning assistance and instant answers
-- 👥 **Classroom Integration** - Easy class joining and collaborative learning
-- 🎯 **Progress Tracking** - Visual learning journey and achievement system
 
 ---
 
