@@ -25,9 +25,9 @@
   <span> · </span>
   <a href="#-features">Features</a>
   <span> · </span>
-  <a href="#-architecture">Architecture</a>
+  <a href="#-screenshots--demo">Screenshots</a>
   <span> · </span>
-  <a href="#-demo">Demo</a>
+  <a href="#-architecture">Architecture</a>
   <span> · </span>
   <a href="#-documentation">Docs</a>
 </h4>
@@ -309,6 +309,97 @@ pie title Educational Challenges
 
 ---
 
+## 📸 Screenshots & Demo
+
+<div align="center">
+
+### **See EduSaarthi in Action**
+
+*Experience the power of our comprehensive educational platform through these interface previews*
+
+</div>
+
+### 🎯 AI Test Arena
+<div align="center">
+<img src="./public/images/ai-test-arena.png" alt="AI Test Arena Interface" width="800"/>
+</div>
+
+**Features Shown:**
+- 🤖 **AI-Powered Testing** - Full-length comprehensive challenges and rapid-fire assessments
+- 📊 **Performance Analytics** - Detailed insights and performance tracking
+- 🎯 **Gamified Learning** - Engaging test formats with streak bonuses and multipliers
+- 📚 **Quiz History** - Complete learning journey tracking
+
+---
+
+### 📅 Smart Calendar Management
+<div align="center">
+<img src="./public/images/calendar-interface.png" alt="Calendar Management Interface" width="800"/>
+</div>
+
+**Features Shown:**
+- 📅 **Intelligent Scheduling** - Automated assignment and exam scheduling
+- ⏰ **Real-time Updates** - Live schedule synchronization across devices
+- 📊 **Weekly Overview** - Classes, assignments, exams, and meetings at a glance
+- 🔔 **Smart Notifications** - Deadline reminders and schedule alerts
+
+---
+
+### 🎬 AI Video Studio
+<div align="center">
+<img src="./public/images/ai-video-studio-detailed.png" alt="AI Video Studio Interface" width="800"/>
+</div>
+
+**Features Shown:**
+- 🎥 **AI Video Generation** - Transform lessons into engaging video content with HD quality
+- 📚 **PDF to Video** - Convert educational materials to interactive videos
+- 🗣️ **Multi-language Support** - Voice models in multiple languages
+- 🎨 **Custom Configuration** - Detailed video generation settings and preview
+- ⚡ **Fast Generation** - Quick processing with AI-powered optimization
+
+---
+
+### 🎓 Student Dashboard
+<div align="center">
+<img src="./public/images/student-dashboard.png" alt="Student Dashboard Interface" width="800"/>
+</div>
+
+**Features Shown:**
+- 📖 **Learning Modules** - Scan PDFs, interactive quizzes, and storybook features
+- 🤖 **AI Chatbot** - Personalized learning assistance and instant answers
+- 👥 **Classroom Integration** - Easy class joining and collaborative learning
+- 🎯 **Progress Tracking** - Visual learning journey and achievement system
+
+---
+
+### 🏫 Enrolled Classrooms
+<div align="center">
+<img src="./public/images/enrolled-classrooms.png" alt="Enrolled Classrooms Interface" width="800"/>
+</div>
+
+**Features Shown:**
+- 📚 **Classroom Management** - View and manage all enrolled classrooms
+- 👥 **Student & Assignment Tracking** - Real-time counts and progress monitoring
+- 🔍 **Smart Search** - Quickly find specific classrooms and assignments
+- ➕ **Easy Enrollment** - One-click classroom joining functionality
+- 📊 **Overview Dashboard** - Complete summary of classroom participation
+- 🎯 **Subject Organization** - Organized by subjects like DSA, algorithms, and more
+
+---
+
+### 📊 Performance Analytics
+<div align="center">
+<img src="./public/images/performance-overview.png" alt="Performance Overview Interface" width="800"/>
+</div>
+
+**Features Shown:**
+- 📈 **Detailed Analytics** - Comprehensive student performance tracking
+- 🎯 **Accuracy Metrics** - Real-time accuracy and streak monitoring
+- 📚 **Subject-wise Analysis** - Performance breakdown by subjects and grades
+- ⏱️ **Time Tracking** - Duration analysis and learning efficiency metrics
+
+---
+
 ## 🏗️ System Architecture
 
 <div align="center">
@@ -567,6 +658,7 @@ EduSaarthi/
 
 - [🚀 Quick Start](#-quick-start)
 - [✨ Features](#-features)
+- [📸 Screenshots & Demo](#-screenshots--demo)
 - [🏗️ Architecture](#%EF%B8%8F-architecture)
 - [🛠️ Technology Stack](#%EF%B8%8F-technology-stack)
 - [📚 API Documentation](#-api-documentation)
