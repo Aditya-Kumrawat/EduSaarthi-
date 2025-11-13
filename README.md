@@ -321,7 +321,7 @@ pie title Educational Challenges
 
 ### 🎓 Student Dashboard
 <div align="center">
-<img src="public/images/student-dashboard.png" alt="Student Dashboard Interface" width="800"/>
+<img src="images/student-dashboard.png" alt="Student Dashboard Interface" width="800"/>
 </div>
 
 **Features Shown:**
@@ -334,7 +334,7 @@ pie title Educational Challenges
 
 ### 🎯 AI Test Arena
 <div align="center">
-<img src="public/images/ai-test-arena.png" alt="AI Test Arena Interface" width="800"/>
+<img src="images/ai-test-arena.png" alt="AI Test Arena Interface" width="800"/>
 </div>
 
 **Features Shown:**
@@ -347,7 +347,7 @@ pie title Educational Challenges
 
 ### 📅 Smart Calendar Management
 <div align="center">
-<img src="public/images/calendar-interface.png" alt="Calendar Management Interface" width="800"/>
+<img src="images/calendar-interface.png" alt="Calendar Management Interface" width="800"/>
 </div>
 
 **Features Shown:**
@@ -360,7 +360,7 @@ pie title Educational Challenges
 
 ### 🎬 AI Video Studio
 <div align="center">
-<img src="public/images/ai-video-studio-detailed.png" alt="AI Video Studio Interface" width="800"/>
+<img src="images/ai-video-studio-detailed.png" alt="AI Video Studio Interface" width="800"/>
 </div>
 
 **Features Shown:**
@@ -374,7 +374,7 @@ pie title Educational Challenges
 
 ### 🏫 Enrolled Classrooms
 <div align="center">
-<img src="public/images/enrolled-classrooms.png" alt="Enrolled Classrooms Interface" width="800"/>
+<img src="images/enrolled-classrooms.png" alt="Enrolled Classrooms Interface" width="800"/>
 </div>
 
 **Features Shown:**
@@ -389,7 +389,7 @@ pie title Educational Challenges
 
 ### 📊 Performance Analytics
 <div align="center">
-<img src="public/images/performance-overview.png" alt="Performance Overview Interface" width="800"/>
+<img src="images/performance-overview.png" alt="Performance Overview Interface" width="800"/>
 </div>
 
 **Features Shown:**
