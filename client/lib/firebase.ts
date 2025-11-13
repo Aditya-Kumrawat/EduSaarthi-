@@ -3,13 +3,13 @@ import { getAuth, connectAuthEmulator } from 'firebase/auth';
 import { getFirestore, connectFirestoreEmulator } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBC27SDIIq1lMVhyG6an8NEWOhTEf-EfyE",
-  authDomain: "edutrust-83abb.firebaseapp.com",
-  projectId: "edutrust-83abb",
-  storageBucket: "edutrust-83abb.firebasestorage.app",
-  messagingSenderId: "806430959221",
-  appId: "1:806430959221:web:e837a97bdd092fb3dafa3c",
-  measurementId: "G-CB0K6SX50R"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase

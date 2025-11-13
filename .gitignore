@@ -7,9 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Environment variables
 .env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
 
+# Dependencies
 node_modules
+
+# Build outputs
 dist
 dist-ssr
 *.local
@@ -25,6 +34,12 @@ dist-ssr
 *.sln
 *.sw?
 
+# Config and cache
 .config/
-!.env
-.env
+.cache/
+
+# API keys and secrets (additional protection)
+**/firebase-config.js
+**/api-keys.js
+**/*secret*
+**/*private*
